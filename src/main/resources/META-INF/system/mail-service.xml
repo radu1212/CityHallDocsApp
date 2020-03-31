@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy-service>
+    <clients>
+        <client name="mail-account" connector="com.warework.service.mail.client.connector.JavaMailSenderConnector">
+            <parameter name="mail.host" value="smtp.gmail.com" />
+            <parameter name="mail.port" value="587" />
+            <parameter name="mail.transport.protocol" value="smtp" />
+            <parameter name="mail.user" value="siminaradu12@gmail.com" />
+            <parameter name="mail.password" value="becali12" />
+            <parameter name="mail.smtp.auth" value="true" />
+            <parameter name="mail.smtp.starttls.enable" value="true" />
+            <parameter name="mail.message.charset" value="utf-8" />
+            <parameter name="mail.message.subtype" value="html" />
+        </client>
+    </clients>
+</proxy-service>
